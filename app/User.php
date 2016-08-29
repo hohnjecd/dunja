@@ -31,7 +31,7 @@ class User extends Authenticatable
         return $this->belongsTo('App\Role');  //pravimo vezu i povezujemo user sa role
     }
 
-    public function photo(){
+    public function photo(){   //veza gde povezujemo user i photo
 
         return $this->belongsTo('App\Photo');
 
