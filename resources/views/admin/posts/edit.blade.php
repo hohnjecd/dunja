@@ -1,7 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Dunja
- * Date: 8/19/2016
- * Time: 5:21 PM
- */
+@extends('layouts.admin')
+
+
+@section('content')
+
+    <h1>Edit Post</h1>
+
+@endsection
